@@ -639,9 +639,14 @@ $wazuh_api_logs_level
   `Default info`
 
 $wazuh_api_logs_path
-  Path where to save the Wazuh API logs.
+  Directory where the Wazuh API logs will be saved.
 
-  `Default logs/api.log`
+  `Default logs`
+
+$wazuh_api_logs_format
+  Set the format of the Wazuh API logs.
+
+  `Default plain`
 
 $wazuh_api_cors_enabled
   Enable or disable the use of CORS in the Wazuh API.

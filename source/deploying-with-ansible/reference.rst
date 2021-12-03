@@ -762,7 +762,8 @@ Wazuh Manager
       https_use_ca: False
       https_ca: "api/configuration/ssl/ca.crt"
       logging_level: "info"
-      logging_path: "logs/api.log"
+      logging_path: "logs"
+      logging_format: "plain"
       cors: no
       cors_source_route: "*"
       cors_expose_headers: "*"
